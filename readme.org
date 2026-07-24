@@ -1,0 +1,3 @@
+* my personal nix-config
+
+no i didn't switch to emacs, it sucks
