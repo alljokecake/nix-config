@@ -2,6 +2,8 @@
   description = "virginity shield activated";
 
   inputs = {
+    self.submodules = true;
+
     # Stable Nixpkgs (use 0.1 for unstable)
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0";
 
