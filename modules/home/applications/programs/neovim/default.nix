@@ -9,7 +9,6 @@
 
     xdg.configFile = {
       "nvim" = {
-        # TODO: nvim as a git submodule
         source = ./nvim;
         recursive = true;
       };
