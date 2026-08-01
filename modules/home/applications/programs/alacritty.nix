@@ -69,6 +69,19 @@
 
           mouse = {
             hide_when_typing = true;
+
+            bindings = [
+              {
+                mouse = "WheelUp";
+                mods = "Control";
+                action = "IncreaseFontSize";
+              }
+              {
+                mouse = "WheelDown";
+                mods = "Control";
+                action = "DecreaseFontSize";
+              }
+            ];
           };
 
           window = {
