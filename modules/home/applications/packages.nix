@@ -11,6 +11,7 @@
         with pkgs;
         [
           ripgrep
+          jujutsu
           jq
           curlMinimal
           tree
