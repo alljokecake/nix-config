@@ -11,7 +11,9 @@
         with pkgs;
         [
           ripgrep
-          eza
+          jq
+          curlMinimal
+          tree
         ];
         # TODO: Setup raycast
         # ++ lib.optionals pkgs.stdenv.hostPlatform.isDarwin [

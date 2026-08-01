@@ -4,8 +4,8 @@
       dock = {
         autohide = true;
         orientation = "right";
-        tilesize = 55;
-        largesize = 60;
+        tilesize = 60;
+        largesize = 65;
       };
     };
   };

@@ -9,11 +9,52 @@
         enable = true;
 
         settings = {
+          colors = {
+            primary = {
+              background = "#242424";
+              foreground = "#e3dede";
+            };
+
+            cursor = {
+              text = "#242424";
+              cursor = "#f2a766";
+            };
+
+            selection = {
+              text = "#ffffff";
+              background = "#4c63ad";
+            };
+
+            normal = {
+              black = "#242424";
+              red = "#e05f5f";
+              green = "#8daf67";
+              yellow = "#e6b450";
+              blue = "#81A2C7";
+              magenta = "#cdabcf";
+              cyan = "#f0f0bb";
+              white = "#e3dede";
+            };
+
+            bright = {
+              black = "#505050";
+              red = "#ff7b7b";
+              green = "#a8cf7a";
+              yellow = "#ffc900";
+              blue = "#9cc5e8";
+              magenta = "#e4b8e8";
+              cyan = "#9ccbe8";
+              white = "#ffffff";
+            };
+
+          };
+
           cursor = {
             style = {
               shape = "Block";
               blinking = "Always";
             };
+
             blink_timeout = 0;
           };
 
@@ -44,13 +85,6 @@
             };
 
             decorations_theme_variant = "Dark";
-          };
-
-          # FIXME
-          general = {
-            import = [
-              "~/.config/alacritty/dorf.toml"
-            ];
           };
 
           terminal = {
