@@ -25,7 +25,6 @@
           set fish_cursor_replace_one block
           set fish_cursor_visual block
 
-          set fish_color_command blue
 
           set --export BUN_INSTALL "$HOME/.bun"
           fish_add_path $BUN_INSTALL/bin
@@ -52,7 +51,8 @@
           set --global hydro_color_git cyan
           set --global hydro_color_prompt white
 
-          set fish_color_param white
+          set fish_color_command blue
+          set fish_color_param cyan
         '';
       };
     };
