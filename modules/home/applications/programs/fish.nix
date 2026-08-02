@@ -34,7 +34,6 @@
             tmux new-session -A -s genesis
           end
 
-          direnv hook fish | source
 
           function fish_mode_prompt
               # disable vi mode indicators
@@ -53,6 +52,10 @@
 
           set fish_color_command blue
           set fish_color_param cyan
+
+          direnv hook fish | source
+          jj util completion fish | source
+
         '';
       };
     };
