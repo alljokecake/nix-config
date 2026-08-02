@@ -21,8 +21,8 @@
             };
 
             selection = {
-              text = "#ffffff";
-              background = "#4c63ad";
+              text = "CellForeground";
+              background = "#c678dd";
             };
 
             normal = {
