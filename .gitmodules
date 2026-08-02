@@ -1,3 +1,0 @@
-[submodule "modules/home/applications/programs/neovim/nvim"]
-	path = modules/home/applications/programs/neovim/nvim
-	url = https://github.com/alljokecake/nvim
