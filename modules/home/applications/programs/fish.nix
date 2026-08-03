@@ -26,9 +26,6 @@
           set fish_cursor_visual block
 
 
-          set --export BUN_INSTALL "$HOME/.bun"
-          fish_add_path $BUN_INSTALL/bin
-
           if status is-interactive
           and not set -q TMUX
             tmux new-session -A -s genesis
