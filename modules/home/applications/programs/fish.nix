@@ -1,3 +1,4 @@
+# TODO: get rid of hydro, use jj friendly prompt
 {
   flake.modules.homeManager.fish =
     { pkgs, ... }:
