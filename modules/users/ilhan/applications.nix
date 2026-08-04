@@ -9,7 +9,6 @@ in
       hm."ilhan.profile"
       hm.packages
 
-      # TODO: Activate after agenix setup
       # hm.git
 
       hm.fish

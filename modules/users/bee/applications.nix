@@ -5,7 +5,6 @@ in
 {
   flake.modules.homeManager."bee.applications" = {
     imports = [
-      # TODO: Setup BusyBox?
       hm."bee.profile"
       # hm.git
     ];
