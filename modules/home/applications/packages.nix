@@ -15,6 +15,7 @@
           jq
           curlMinimal
           tree
+          fd
         ];
         # TODO: Setup raycast
         # ++ lib.optionals pkgs.stdenv.hostPlatform.isDarwin [
